@@ -3,7 +3,7 @@ import slugify from "slugify";
 export const CREATOR_INFO = {
   name: "Arsh Bansal",
   title: "Software Engineering Student & Developer",
-  email: "arshb6564@gmail.com",
+  email: "me@arshbansal.dev",
   phone: "0410999585",
   location: "Melbourne, Australia",
   linkedin: "https://www.linkedin.com/in/arshbansal05",

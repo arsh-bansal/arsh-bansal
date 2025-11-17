@@ -111,7 +111,10 @@ export default function AboutPage() {
       <div className="mb-8 sm:mb-10 md:mb-12">
         <div className="flex flex-col md:flex-row gap-6 sm:gap-8 items-center md:items-start">
           <Avatar className="h-32 w-32 sm:h-40 sm:w-40 md:h-48 md:w-48">
-            <AvatarImage src={CREATOR_INFO.avatar} />
+            <AvatarImage
+              className="object-cover origin-center"
+              src={CREATOR_INFO.avatar}
+            />
             <AvatarFallback>
               {CREATOR_INFO.name
                 .split(" ")
