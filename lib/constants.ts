@@ -1,269 +1,267 @@
 import slugify from "slugify";
 
 export const CREATOR_INFO = {
-	name: "Aditya Tripathi",
-	title: "Software Engineering Student & Developer",
-	email: "me@adityatripathi.dev",
-	location: "Victoria, Australia",
-	linkedin: "https://www.linkedin.com/in/adityatripathi0404",
-	github: "https://github.com/aditya04tripathi",
-	githubRepo: "https://github.com/aditya04tripathi/aditya04tripathi",
-	bio: "Motivated software engineering student passionate about building web applications and creating solutions that connect people. Currently pursuing Bachelor of Software Engineering (Hons.) at Monash University.",
-	avatar:
-		"https://res.cloudinary.com/dpaqsdcky/image/upload/v1761473970/pfp_cw1znb.jpg",
-	ogImage: "/og-image.png",
+  name: "Arsh Bansal",
+  title: "Software Engineering Student & Developer",
+  email: "arshb6564@gmail.com",
+  phone: "0410999585",
+  location: "Melbourne, Australia",
+  linkedin: "https://www.linkedin.com/in/arshbansal05",
+  github: "https://github.com/arsh-bansal",
+  githubRepo: "https://github.com/arsh-bansal/arsh-bansal",
+  bio: "Motivated software engineering student passionate about building web applications and creating solutions that connect people. Currently pursuing Bachelor of Engineering (Honours) - Software Engineering at Monash University.",
+  avatar: "/ArshBansal.jpeg",
+  ogImage: "/og-image.png",
 };
 
 export const SITE_CONFIG = {
-	url: "https://adityatripathi.dev",
-	name: "Aditya Tripathi Portfolio",
+  url: "https://arshbansal.dev",
+  name: "Arsh Bansal Portfolio",
 };
 
 export const EDUCATION = [
-	{
-		degree: "Bachelor of Software Engineering (Honours)",
-		institution: "Monash University",
-		location: "Clayton, Melbourne, Australia",
-		period: "February 2025 - Present",
-		status: "Final Year Student",
-	},
+  {
+    degree: "Bachelor of Engineering (Honours) - Software Engineering",
+    institution: "Monash University",
+    location: "Melbourne, Australia",
+    period: "Expected Dec 2026",
+    status: "Current Student",
+  },
+  {
+    degree: "Diploma - Bachelor of Information Technology",
+    institution: "Amity University",
+    location: "India",
+    period: "2022 - 2024",
+    status: "Completed",
+  },
 ];
 
 export const SKILLS = {
-	technical: [
-		"Next.js",
-		"React",
-		"TypeScript",
-		"Node.js",
-		"MongoDB",
-		"Tailwind CSS",
-		"Git",
-		"REST APIs",
-	],
-	soft: [
-		"Problem Solving",
-		"Teamwork",
-		"Communication",
-		"Adaptability",
-		"Time Management",
-		"Customer Service",
-		"Fast-paced Environment",
-	],
+  technical: [
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "Python",
+    "Swift",
+    "SQL",
+    "HTML5",
+    "CSS3",
+    "NestJS",
+    "Node.js",
+    "Express.js",
+    "Flask",
+    "FastAPI",
+    "PostgreSQL",
+    "MongoDB",
+    "Firebase Firestore",
+    "Prisma ORM",
+    "React",
+    "SwiftUI",
+    "Tailwind CSS",
+    "Next.js",
+    "Firebase Auth",
+    "Firebase Cloud Storage",
+    "Google Cloud Platform",
+    "Docker",
+    "Git",
+    "GitHub",
+    "GitHub Actions",
+    "REST APIs",
+    "WebSockets",
+    "JWT",
+    "Tkinter",
+    "Core Data",
+  ],
+  soft: [
+    "Problem Solving",
+    "Teamwork",
+    "Communication",
+    "Adaptability",
+    "Time Management",
+    "Customer Service",
+    "Fast-paced Environment",
+    "Agile/Scrum",
+  ],
 };
 
 export const WORK_EXPERIENCE = [
-	{
-		role: "Software Engineer Intern",
-		company: "LENS Corporation",
-		location: "Gurugram, Haryana, India · Hybrid",
-		period: "September 2024 - December 2024",
-		description:
-			"Architected and deployed responsive web applications, leveraging modern frameworks to enhance user engagement. Collaborated cross-functionally with design and backend teams to deliver pixel-perfect interfaces and optimized performance.",
-	},
-	{
-		role: "Frontend Web Developer",
-		company: "MAI HEALTH",
-		location: "Maryland, United States · Remote",
-		period: "May 2024 - June 2024",
-		description:
-			"Engineered dynamic, user-centric web interfaces for healthcare solutions, transforming complex requirements into intuitive digital experiences. Implemented responsive designs and streamlined workflows to improve accessibility and patient engagement.",
-	},
-	// {
-	// 	role: "Warehouse Hand",
-	// 	company: "South East Timber",
-	// 	location: "Pakenham, Victoria, Australia",
-	// 	period: "September 2025",
-	// 	description:
-	// 		"Orchestrated inventory management systems and optimized warehouse operations, ensuring seamless logistics and timely order fulfillment in a fast-paced distribution environment.",
-	// },
-	// {
-	// 	role: "Car Wash Assistant",
-	// 	company: "Pakenham Car Wash",
-	// 	location: "Pakenham, Victoria",
-	// 	period: "August 2025 - September 2025",
-	// 	description:
-	// 		"Delivered excellence in customer service while maintaining meticulous quality standards, ensuring client satisfaction through attention to detail and efficient service delivery.",
-	// },
+  {
+    role: "Web Developer",
+    company: "Jabsz Studios",
+    location: "Remote",
+    period: "August 2025 - Present",
+    description:
+      "Developing and maintaining scalable web applications as part of a distributed development team. Implementing backend logic, APIs, and integrations using Nest.js, TypeScript, and modern tooling. Collaborating with designers and frontend developers to deliver polished user experiences.",
+  },
+  {
+    role: "Team Member / Cashier",
+    company: "7-Eleven Australia",
+    location: "Australia",
+    period: "May 2025 - Present",
+    description:
+      "Delivered friendly customer service and handled transactions via POS and fuel console systems. Managed store presentation, stock rotation, and ensured a clean and safe environment. Executed closing/opening procedures, balanced tills, and prepared handover documentation.",
+  },
+  {
+    role: "Full Stack Intern (FLISS Program)",
+    company: "Full Stack Development Bootcamp Australia",
+    location: "Australia",
+    period: "July 2024 - October 2024",
+    description:
+      "Contributed to end-to-end full-stack web development projects in an agile team setting. Built scalable features with strong UI/UX considerations and clean, maintainable code. Collaborated in sprints, participated in code reviews, and delivered high-quality features. Received a Letter of Recognition for outstanding technical performance.",
+  },
 ];
 
 export const PROJECTS = [
-	{
-		name: "Dev Event",
-		slug: slugify("Dev Event", { lower: true }),
-		image: "/projects/dev-event.png",
-		description:
-			"A full-stack event management platform for developers. Features include event creation, search, filtering, pagination, and image uploads.",
-		technologies: [
-			"Next.js",
-			"TypeScript",
-			"MongoDB",
-			"Cloudinary",
-			"Tailwind CSS",
-			"shadcn/ui",
-		],
-		link: "https://dev-event.adityatripathi.dev",
-		github: "https://github.com/aditya04tripathi/dev-event",
-		features: [
-			"Full-stack event management with CRUD operations",
-			"Real-time search and filtering with pagination",
-			"Image upload and CDN integration with Cloudinary",
-			"Responsive design with Tailwind CSS and shadcn/ui",
-			"Server actions and API routes for data handling",
-			"MongoDB database with Mongoose ODM",
-			"Type-safe development with TypeScript",
-			"Optimized performance and SEO",
-		],
-		technicalHighlights: [
-			{
-				title: "Frontend Architecture",
-				description:
-					"Built with Next.js 15 and React, utilizing the App Router for optimal performance and SEO. The UI is crafted with Tailwind CSS and shadcn/ui components, ensuring a modern and accessible user experience across all devices.",
-			},
-			{
-				title: "Backend & Database",
-				description:
-					"Leverages Next.js Server Actions and API routes for seamless client-server communication. MongoDB serves as the database with Mongoose ODM for robust data modeling and validation.",
-			},
-			{
-				title: "Cloud Integration",
-				description:
-					"Integrated with Cloudinary for efficient image management, including upload, optimization, and CDN delivery. This ensures fast loading times and excellent user experience.",
-			},
-			{
-				title: "Developer Experience",
-				description:
-					"Full TypeScript implementation provides type safety and enhanced developer productivity. The codebase follows best practices with proper error handling, loading states, and responsive design patterns.",
-			},
-		],
-	},
-	{
-		name: "Gnosis",
-		slug: slugify("Gnosis", { lower: true }),
-		image: "/projects/gnosis.png",
-		description:
-			"A full-stack AI-powered startup validation platform, which allows users to validate their startup ideas and get feedback from AI. With a detailed analysis of the startup idea, the platform provides a score and a detailed flowchart, and a SCRUM board of the startup idea.",
-		technologies: [
-			"Next.js",
-			"TypeScript",
-			"Tailwind CSS",
-			"shadcn/ui",
-			"Groq",
-			"OpenAI",
-			"PayPal",
-		],
-		link: "https://gnosis.adityatripathi.dev",
-		github: "https://github.com/aditya04tripathi/saas-validator-ai",
-		featured: false,
-		features: [
-			"AI-powered startup idea validation and analysis",
-			"Comprehensive startup scoring system",
-			"Interactive flowchart generation for startup roadmap",
-			"SCRUM board creation for project management",
-			"Payment integration with PayPal",
-			"Responsive design with Tailwind CSS and shadcn/ui",
-			"Type-safe development with TypeScript",
-			"Optimized performance and SEO",
-		],
-		technicalHighlights: [
-			{
-				title: "AI Integration",
-				description:
-					"Leverages Groq and OpenAI APIs to provide intelligent startup validation and analysis. The platform uses advanced AI models to generate comprehensive feedback, scores, and actionable insights for startup ideas.",
-			},
-			{
-				title: "Frontend Architecture",
-				description:
-					"Built with Next.js 15 and React, utilizing the App Router for optimal performance. The UI is crafted with Tailwind CSS and shadcn/ui components, ensuring a modern and accessible user experience across all devices.",
-			},
-			{
-				title: "Payment Processing",
-				description:
-					"Integrated with PayPal for secure payment processing, enabling users to access premium features and services. The payment flow is seamless and user-friendly.",
-			},
-			{
-				title: "Developer Experience",
-				description:
-					"Full TypeScript implementation provides type safety and enhanced developer productivity. The codebase follows best practices with proper error handling, loading states, and responsive design patterns.",
-			},
-		],
-	},
-	{
-		name: "Portfolio",
-		slug: slugify("Portfolio", { lower: true }),
-		image: "/projects/portfolio.png",
-		description:
-			"A modern, responsive portfolio website showcasing my work, experience, and skills. Built with Next.js 16 and featuring dynamic project pages, responsive design, and optimized performance.",
-		technologies: [
-			"Next.js",
-			"React",
-			"TypeScript",
-			"Tailwind CSS",
-			"shadcn/ui",
-			"GSAP",
-			"Motion",
-		],
-		link: "https://adityatripathi.dev",
-		github: "https://github.com/aditya04tripathi/aditya04tripathi/",
-		features: [
-			"Responsive portfolio website with modern UI/UX",
-			"Dynamic project pages with detailed information",
-			"Comprehensive showcase of skills, education, and work experience",
-			"SEO optimized with metadata and Open Graph tags",
-			"Responsive design with Tailwind CSS and shadcn/ui components",
-			"Smooth animations with GSAP and Motion libraries",
-			"Type-safe development with TypeScript",
-			"Optimized performance and accessibility",
-		],
-		technicalHighlights: [
-			{
-				title: "Next.js 16 App Router",
-				description:
-					"Built with Next.js 16 utilizing the App Router for optimal performance, SEO, and developer experience. Features dynamic routing for project pages and server-side rendering capabilities.",
-			},
-			{
-				title: "Modern UI Components",
-				description:
-					"Leverages shadcn/ui components built on Radix UI primitives, ensuring accessibility and a consistent design system. Components include Avatar, Badge, Button, Card, HoverCard, and Separator.",
-			},
-			{
-				title: "Responsive Design",
-				description:
-					"Fully responsive design that works seamlessly across all device sizes, from mobile to desktop. Uses Tailwind CSS for utility-first styling with a dark theme optimized for readability.",
-			},
-			{
-				title: "Developer Experience",
-				description:
-					"Full TypeScript implementation provides type safety throughout the codebase. The project structure is organized with clear separation of concerns, making it maintainable and scalable.",
-			},
-		],
-	},
+  {
+    name: "Skilltree",
+    slug: slugify("Skilltree", { lower: true }),
+    image: "/projects/skilltree.png",
+    description:
+      "Backend developer for a social platform enabling users to create skill-based communities. Implemented systems for progression trees, XP calculation, verification workflows, and ranking.",
+    technologies: ["NestJS", "TypeScript", "PostgreSQL", "React"],
+    link: "",
+    github: "",
+    features: [
+      "Social platform for skill-based communities",
+      "Progression trees and XP calculation system",
+      "Verification workflows for skill validation",
+      "Ranking and leaderboard systems",
+      "REST APIs for community creation, tagging, submissions, and leaderboards",
+      "Type-safe development with TypeScript",
+      "Scalable backend architecture with NestJS",
+    ],
+    technicalHighlights: [
+      {
+        title: "Backend Architecture",
+        description:
+          "Built with NestJS and TypeScript, providing a scalable and maintainable backend architecture. Implemented REST APIs for community management, user progression, and ranking systems.",
+      },
+      {
+        title: "Database Design",
+        description:
+          "Leveraged PostgreSQL for robust data storage and relationships. Designed efficient schemas for communities, users, skills, and progression tracking.",
+      },
+      {
+        title: "Progression System",
+        description:
+          "Implemented complex progression trees and XP calculation algorithms to track user skill development and community engagement.",
+      },
+      {
+        title: "Verification & Ranking",
+        description:
+          "Built verification workflows to validate user skills and implemented ranking systems to showcase top performers in each community.",
+      },
+    ],
+  },
+  {
+    name: "Santorini Board Game",
+    slug: slugify("Santorini Board Game", { lower: true }),
+    image: "/projects/santorini.png",
+    description:
+      "Developed a full digital implementation of the Santorini strategy board game with GUI. Implemented unique god powers (Artemis, Demeter, Zeus), rule enforcement, and win logic.",
+    technologies: ["Python", "Tkinter"],
+    link: "",
+    github: "",
+    features: [
+      "Full digital implementation of Santorini board game",
+      "Interactive GUI built with Tkinter",
+      "Unique god powers (Artemis, Demeter, Zeus)",
+      "Complete rule enforcement and win logic",
+      "Object-oriented architecture",
+      "Timer functionality and hints system",
+      "Modular design supporting expansions",
+    ],
+    technicalHighlights: [
+      {
+        title: "Game Logic",
+        description:
+          "Implemented complete game mechanics including move validation, win conditions, and turn management. Built robust rule enforcement to ensure fair gameplay.",
+      },
+      {
+        title: "God Powers System",
+        description:
+          "Designed and implemented unique god powers (Artemis, Demeter, Zeus) with special abilities that modify gameplay, requiring careful game state management.",
+      },
+      {
+        title: "GUI Development",
+        description:
+          "Created an intuitive graphical interface using Tkinter, providing smooth user interaction and visual feedback for all game actions.",
+      },
+      {
+        title: "Architecture",
+        description:
+          "Built with object-oriented principles, supporting modular expansions and features like timers and hints. The architecture is maintainable and extensible.",
+      },
+    ],
+  },
+  {
+    name: "UNEXP",
+    slug: slugify("UNEXP", { lower: true }),
+    image: "/projects/unexp.png",
+    description:
+      "Developed an iOS app for Monash students to browse and explore university units. Integrated Firebase for authentication, cloud sync, and real-time bookmarking across devices.",
+    technologies: ["SwiftUI", "Firebase", "Core Data"],
+    link: "",
+    github: "",
+    features: [
+      "iOS app for Monash University students",
+      "Browse and explore university units",
+      "Firebase authentication and cloud sync",
+      "Real-time bookmarking across devices",
+      "Clean SwiftUI interfaces",
+      "Smooth navigation and responsive layouts",
+      "Offline support with Core Data",
+    ],
+    technicalHighlights: [
+      {
+        title: "iOS Development",
+        description:
+          "Built with SwiftUI, providing a modern and native iOS experience. Implemented clean interfaces with smooth navigation and responsive layouts.",
+      },
+      {
+        title: "Firebase Integration",
+        description:
+          "Integrated Firebase for authentication, cloud storage, and real-time synchronization. Enabled seamless bookmarking across multiple devices.",
+      },
+      {
+        title: "Data Management",
+        description:
+          "Leveraged Core Data for local storage and offline support, ensuring the app remains functional even without network connectivity.",
+      },
+      {
+        title: "User Experience",
+        description:
+          "Designed intuitive user flows for browsing and exploring university units, making it easy for students to find and save relevant information.",
+      },
+    ],
+  },
 ];
 
 export const metadata = {
-	metadataBase: new URL("https://adityatripathi.dev"),
-	title: "About",
-	description:
-		"Learn about Aditya Tripathi, the developer behind DevEvent. Full-stack developer specializing in Next.js, React, TypeScript, and MongoDB.",
-	keywords: [
-		"Aditya Tripathi",
-		"developer",
-		"full-stack developer",
-		"Next.js developer",
-		"React developer",
-		"portfolio",
-	],
-	openGraph: {
-		title: "About Aditya Tripathi | DevEvent",
-		description:
-			"Learn about the developer behind DevEvent. Full-stack developer specializing in modern web technologies.",
-		type: "profile",
-		images: [
-			{
-				url: "/og-image.png",
-				width: 1200,
-				height: 630,
-				alt: "About Aditya Tripathi | DevEvent",
-			},
-		],
-	},
+  metadataBase: new URL("https://arshbansal.dev"),
+  title: "About",
+  description:
+    "Learn about Arsh Bansal, a software engineering student and developer. Full-stack developer specializing in NestJS, TypeScript, React, and modern web technologies.",
+  keywords: [
+    "Arsh Bansal",
+    "developer",
+    "full-stack developer",
+    "software engineering student",
+    "NestJS developer",
+    "React developer",
+    "portfolio",
+  ],
+  openGraph: {
+    title: "About Arsh Bansal | Portfolio",
+    description:
+      "Learn about Arsh Bansal, a software engineering student and developer specializing in modern web technologies.",
+    type: "profile",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "About Arsh Bansal | Portfolio",
+      },
+    ],
+  },
 };
