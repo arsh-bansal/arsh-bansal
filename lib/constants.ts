@@ -24,7 +24,7 @@ export const EDUCATION = [
     degree: "Bachelor of Engineering (Honours) - Software Engineering",
     institution: "Monash University",
     location: "Melbourne, Australia",
-    period: "Expected Dec 2026",
+    period: "Expected December 2026",
     status: "Current Student",
   },
   {
@@ -91,9 +91,9 @@ export const WORK_EXPERIENCE = [
       "Developing and maintaining scalable web applications as part of a distributed development team. Implementing backend logic, APIs, and integrations using Nest.js, TypeScript, and modern tooling. Collaborating with designers and frontend developers to deliver polished user experiences.",
   },
   {
-    role: "Full Stack Intern (FLISS Program)",
-    company: "Full Stack Development Bootcamp Australia",
-    location: "Australia",
+    role: "Full Stack Intern",
+    company: "STUDY FLISS",
+    location: "India",
     period: "July 2024 - October 2024",
     description:
       "Contributed to end-to-end full-stack web development projects in an agile team setting. Built scalable features with strong UI/UX considerations and clean, maintainable code. Collaborated in sprints, participated in code reviews, and delivered high-quality features. Received a Letter of Recognition for outstanding technical performance.",
