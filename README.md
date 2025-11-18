@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with Next.js 15, showcasing my proj
 
 ## 🚀 Live Demo
 
-Visit the live site: [adityatripathi.dev](https://adityatripathi.dev)
+Visit the live site: [arshbansal.dev](https://arshbansal.dev)
 
 ## ✨ Features
 
@@ -116,9 +116,9 @@ To customize the portfolio with your own information:
 
 **Aditya Tripathi**
 
-- Email: [me@adityatripathi.dev](mailto:me@adityatripathi.dev)
-- LinkedIn: [adityatripathi0404](https://www.linkedin.com/in/adityatripathi0404)
-- GitHub: [@aditya04tripathi](https://github.com/aditya04tripathi)
+- Email: [me@arshbansal.dev](mailto:me@arshbansal.dev)
+- LinkedIn: [adityatripathi0404](https://www.linkedin.com/in/arshbansal05)
+- GitHub: [@aditya04tripathi](https://github.com/arsh-bansal)
 
 ## 📄 License
 
@@ -129,7 +129,3 @@ This project is open source and available under the [MIT License](LICENSE).
 - Built with [Next.js](https://nextjs.org/)
 - UI components from [shadcn/ui](https://ui.shadcn.com/)
 - Icons by [Lucide](https://lucide.dev/)
-
----
-
-Made with ❤️ by Aditya Tripathi
