@@ -48,7 +48,6 @@ export const SKILLS = {
     "NestJS",
     "Node.js",
     "Express.js",
-    "Flask",
     "FastAPI",
     "PostgreSQL",
     "MongoDB",
@@ -69,7 +68,6 @@ export const SKILLS = {
     "WebSockets",
     "JWT",
     "Tkinter",
-    "Core Data",
   ],
   soft: [
     "Problem Solving",
@@ -93,14 +91,6 @@ export const WORK_EXPERIENCE = [
       "Developing and maintaining scalable web applications as part of a distributed development team. Implementing backend logic, APIs, and integrations using Nest.js, TypeScript, and modern tooling. Collaborating with designers and frontend developers to deliver polished user experiences.",
   },
   {
-    role: "Team Member / Cashier",
-    company: "7-Eleven Australia",
-    location: "Australia",
-    period: "May 2025 - Present",
-    description:
-      "Delivered friendly customer service and handled transactions via POS and fuel console systems. Managed store presentation, stock rotation, and ensured a clean and safe environment. Executed closing/opening procedures, balanced tills, and prepared handover documentation.",
-  },
-  {
     role: "Full Stack Intern (FLISS Program)",
     company: "Full Stack Development Bootcamp Australia",
     location: "Australia",
@@ -112,6 +102,57 @@ export const WORK_EXPERIENCE = [
 
 export const PROJECTS = [
   {
+    name: "Gnosis",
+    slug: slugify("Gnosis", { lower: true }),
+    image: "/projects/gnosis.png",
+    description:
+      "A full-stack AI-powered startup validation platform, which allows users to validate their startup ideas and get feedback from AI. With a detailed analysis of the startup idea, the platform provides a score and a detailed flowchart, and a SCRUM board of the startup idea.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Groq",
+      "OpenAI",
+      "PayPal",
+    ],
+    link: "https://gnosis.adityatripathi.dev",
+    github: "https://github.com/aditya04tripathi/saas-validator-ai",
+    featured: false,
+    features: [
+      "AI-powered startup idea validation and analysis",
+      "Comprehensive startup scoring system",
+      "Interactive flowchart generation for startup roadmap",
+      "SCRUM board creation for project management",
+      "Payment integration with PayPal",
+      "Responsive design with Tailwind CSS and shadcn/ui",
+      "Type-safe development with TypeScript",
+      "Optimized performance and SEO",
+    ],
+    technicalHighlights: [
+      {
+        title: "AI Integration",
+        description:
+          "Leverages Groq and OpenAI APIs to provide intelligent startup validation and analysis. The platform uses advanced AI models to generate comprehensive feedback, scores, and actionable insights for startup ideas.",
+      },
+      {
+        title: "Frontend Architecture",
+        description:
+          "Built with Next.js 15 and React, utilizing the App Router for optimal performance. The UI is crafted with Tailwind CSS and shadcn/ui components, ensuring a modern and accessible user experience across all devices.",
+      },
+      {
+        title: "Payment Processing",
+        description:
+          "Integrated with PayPal for secure payment processing, enabling users to access premium features and services. The payment flow is seamless and user-friendly.",
+      },
+      {
+        title: "Developer Experience",
+        description:
+          "Full TypeScript implementation provides type safety and enhanced developer productivity. The codebase follows best practices with proper error handling, loading states, and responsive design patterns.",
+      },
+    ],
+  },
+  {
     name: "Skilltree",
     slug: slugify("Skilltree", { lower: true }),
     image: "/projects/skilltree.png",
@@ -119,7 +160,7 @@ export const PROJECTS = [
       "Backend developer for a social platform enabling users to create skill-based communities. Implemented systems for progression trees, XP calculation, verification workflows, and ranking.",
     technologies: ["NestJS", "TypeScript", "PostgreSQL", "React"],
     link: "",
-    github: "",
+    github: "https://github.com/Monash-FIT3170/2025W1-Skilltree",
     features: [
       "Social platform for skill-based communities",
       "Progression trees and XP calculation system",
@@ -160,7 +201,7 @@ export const PROJECTS = [
       "Developed a full digital implementation of the Santorini strategy board game with GUI. Implemented unique god powers (Artemis, Demeter, Zeus), rule enforcement, and win logic.",
     technologies: ["Python", "Tkinter"],
     link: "",
-    github: "",
+    github: "https://github.com/arsh-bansal/Santorini-board-game#",
     features: [
       "Full digital implementation of Santorini board game",
       "Interactive GUI built with Tkinter",
@@ -196,7 +237,7 @@ export const PROJECTS = [
   {
     name: "UNEXP",
     slug: slugify("UNEXP", { lower: true }),
-    image: "/projects/unexp.png",
+    image: "/projects/unexp.jpg",
     description:
       "Developed an iOS app for Monash students to browse and explore university units. Integrated Firebase for authentication, cloud sync, and real-time bookmarking across devices.",
     technologies: ["SwiftUI", "Firebase", "Core Data"],
