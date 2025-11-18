@@ -117,8 +117,8 @@ To customize the portfolio with your own information:
 **Aditya Tripathi**
 
 - Email: [me@arshbansal.dev](mailto:me@arshbansal.dev)
-- LinkedIn: [adityatripathi0404](https://www.linkedin.com/in/arshbansal05)
-- GitHub: [@aditya04tripathi](https://github.com/arsh-bansal)
+- LinkedIn: [arshbansal05](https://www.linkedin.com/in/arshbansal05)
+- GitHub: [@arshbansal](https://github.com/arsh-bansal)
 
 ## 📄 License
 
